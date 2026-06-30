@@ -7,6 +7,7 @@ import Todo from './Todo'
 import Bio from './Bio'
 import Count from './count'
 import Users from './Users'
+import Posts from './post practise/posts'
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
       {/* {Names.map(name =><Todo Name={name}></Todo>)}
      {Datas.map(data=><Bio singer={data}></Bio>)}
       */}
-      <Count></Count>
-      <Users></Users>
+      {/* <Count></Count>
+      <Users></Users> */}
+      <Posts></Posts>
     </>
   )
 }
